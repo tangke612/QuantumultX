@@ -14,16 +14,16 @@ QX 1.0.6+ :
 [task_local]
 0 * * * * trainquery.js
 # Remote 远程
-0 10 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/trainquery.js, tag=火车票及列车时刻
+0 10 * * * https://github.com/tangke612/QuantumultX/blob/master/Task/trainquery.js, tag=火车票及列车时刻
 ～～～～～～～～～～～～～～～～
 Surge 4.0 :  
 [Script]
-火车票及列车时刻 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/trainquery.js,script-update-interval=0
+火车票及列车时刻 = type=cron,cronexp=35 5 0 * * *,script-path=https://github.com/tangke612/QuantumultX/blob/master/Task/trainquery.js,script-update-interval=0
 
 ～～～～～～～～～～～～～～～～～
 Loon 2.1.0+
 [Script]
-cron "04 00 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/trainquery.js, enabled=true, tag=火车票及列车时刻
+cron "04 00 * * *" script-path=https://github.com/tangke612/QuantumultX/blob/master/Task/trainquery.js, enabled=true, tag=火车票及列车时刻
 
 -----------------
 
